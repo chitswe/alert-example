@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid'
 
 
 export const alertInitialState = {
-    timeLimit: 10000,
+    timeLimit: 10,
     text: "",
     link: "",
     alertType: "info",
