@@ -14,8 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ## 20 April 2022 Update
--Add Typechecking With PropTypes to `AlertComponent`
--Add default property value for `AlertComponent`
--Encode link url for opening valid url in new tab using `encodeURI` function
--Implement validation logic before showing new alert.
--Change unit of time lime to second from millisecond.
+- Add Typechecking With PropTypes to `AlertComponent`
+- Add default property value for `AlertComponent`
+- Encode link url for opening valid url in new tab using `encodeURI` function
+- Implement validation logic before showing new alert.
+- Change unit of time lime to second from millisecond.
