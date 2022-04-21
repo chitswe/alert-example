@@ -27,7 +27,11 @@ function AlertComponent({ timeLimit, text, link, alertType, id, alertTitle }) {
 AlertComponent.defaultProps = alertInitialState;
 AlertComponent.propTypes = {
     timeLimit: PropTypes.number.isRequired,
-    text: PropTypes.string.isRequired
+    text: PropTypes.string.isRequired,
+    link: PropTypes.string,
+    alertType: PropTypes.oneOf(['info', 'warning','error','success']).isRequired,
+    id: PropTypes.string.isRequired,
+    alertTitle:PropTypes.string
   };
 
 export default AlertComponent
